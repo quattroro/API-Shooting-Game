@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\MAIN">
+      <UniqueIdentifier>{7ba27ff1-0264-40f3-8e3b-b3223897ce1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\MAIN">
+      <UniqueIdentifier>{c04cff2b-02c2-4014-abca-ba74b5043e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PlayableCharacter">
+      <UniqueIdentifier>{aa71a46f-8df8-446e-b7c8-84220e18f1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PlayableCharacter">
+      <UniqueIdentifier>{f42b18be-ab18-4a82-8556-08eae77e4b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monsters">
+      <UniqueIdentifier>{7e1ec433-9abe-4d21-92e0-1af66891a330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Weapons">
+      <UniqueIdentifier>{dc58e853-0cae-480a-a964-5bd7d4deb9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bullets">
+      <UniqueIdentifier>{19493221-4a49-4bae-9b82-4373354aa685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller">
+      <UniqueIdentifier>{4a543c12-cb46-4196-be3c-9a27662cb1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Items">
+      <UniqueIdentifier>{12a7ac1a-fb82-40f5-b783-65cf7ef6dac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mydoublebuffer">
+      <UniqueIdentifier>{9f892040-80ac-4cb1-a660-457d1e097321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Monsters">
+      <UniqueIdentifier>{0d472762-90e9-4585-8332-798c94c30823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Bullets">
+      <UniqueIdentifier>{20b0c299-1589-4294-9861-2e6281791e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller">
+      <UniqueIdentifier>{70b8810c-f593-44e8-a973-1dbf27fc8b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Items">
+      <UniqueIdentifier>{3746e5a7-9a1e-48cc-9b10-05c2978d54aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mydoublebuffer">
+      <UniqueIdentifier>{499d40e7-928b-4696-a845-63e11f7ac4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Weapons">
+      <UniqueIdentifier>{f20df134-784e-480b-bdcb-c4db63b25194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{3196e934-2357-4b2d-81aa-ef530dbc1f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sound">
+      <UniqueIdentifier>{8776cffd-6d46-4f42-95c3-9b468881c3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{49896515-6d03-40f9-b1fb-a10d040df8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\UI">
+      <UniqueIdentifier>{acae3d12-38b8-4453-ba8e-a800326d54a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWin.h">
+      <Filter>헤더 파일\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCharacter.h">
+      <Filter>헤더 파일\PlayableCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterCrystal.h">
+      <Filter>헤더 파일\PlayableCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterFish.h">
+      <Filter>헤더 파일\PlayableCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="BanDitMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="BigBanDitMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MaggotMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="MaggoyNestMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionMonster.h">
+      <Filter>헤더 파일\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullet.h">
+      <Filter>헤더 파일\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMainController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMainController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWeapon.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="MyChest.h">
+      <Filter>헤더 파일\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDoubleBuffer.h">
+      <Filter>헤더 파일\Mydoublebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponBanDit.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponBigBanDit.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponPistol.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponRifle.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponRocket.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponShotGun.h">
+      <Filter>헤더 파일\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>헤더 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyWin.cpp">
+      <Filter>소스 파일\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterCrystal.cpp">
+      <Filter>소스 파일\PlayableCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterFish.cpp">
+      <Filter>소스 파일\PlayableCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCharacter.cpp">
+      <Filter>소스 파일\PlayableCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="BanDitMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="BigBanDitMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MaggotMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="MaggoyNestMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorpionMonster.cpp">
+      <Filter>소스 파일\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBanDit.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBigBanDit.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponPistol.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponRifle.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponRocket.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponShotGun.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullet.cpp">
+      <Filter>소스 파일\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWeapon.cpp">
+      <Filter>소스 파일\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMainController.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMainController.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyChest.cpp">
+      <Filter>소스 파일\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDoubleBuffer.cpp">
+      <Filter>소스 파일\Mydoublebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="(API)ShootingGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AIM.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bullets.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Character_Fish.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ChestAndItems.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Guns.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Monster_BanDit.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Monster_Maggot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Monster_MaggotNest.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Monster_Scorpion.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
